@@ -1,0 +1,103 @@
+.first {
+    background-color: red;
+    width: 960px;
+    margin:0 auto;
+}
+
+.second {
+    position:relative;
+    background-color: green;
+    width: 960px;
+    left: 50%;
+    margin-left: -480px;
+}
+
+.box-1{
+    position: relative;    
+}
+.left-1{
+    width: 100px;
+    background: red;
+}
+.right-1 {
+    position: absolute;
+    left: 100px;
+    right: 0;
+    top:0;
+    bottom: 0;
+    background-color: blue;
+}
+
+.left-2{
+    float: left;
+    width: 100px;
+    background-color: blue;
+}
+.right-2{
+    margin-left: 100px;
+    width: auto;
+    background-color: red;
+}
+
+
+.left-3 {
+    float: left;
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+.right-3 {
+    float: right;
+    width: 100px;
+    height: 100px;
+    background-color: green;
+}
+.middle-3{
+    height: 100px;
+    background-color: blue;
+}
+
+
+
+.box-4{
+    position: relative;
+}
+.left-4 {
+    position: absolute;
+    left: 0;
+    width: 100px;
+    height: 100px;
+    background-color: green;
+}
+.right-4 {
+    position: absolute;
+    right: 0;
+    width: 100px;
+    height: 100px;
+    background-color: blue;
+}
+.middle-4{
+    position: absolute;
+    left: 100px;
+    right: 100px;
+    height: 100px;
+    background-color: red;
+}
+
+
+
+
+.change-block{
+    background-color: black;
+    margin-top: 120px;
+    padding: 10px;
+    overflow: hidden;
+    
+}
+.block{
+    background-color: blue;
+    width: 100px;
+    height: 50px;
+    margin: 10px;
+    float: left;
+}
